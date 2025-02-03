@@ -1,0 +1,37 @@
+body {
+  background-color: #f4f4f4;
+}
+
+.card {
+  max-width: 400px;
+  margin: auto;
+  padding: 30px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#color-wheel-container {
+  margin-top: 20px;
+  position: relative;
+}
+
+#color-wheel {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 6px solid black;
+  transition: transform 3s ease-out;
+}
+
+.pointer {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  position: absolute;
+  top: -30px; /* Moves the pointer above the color wheel */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
